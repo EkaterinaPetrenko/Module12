@@ -1,0 +1,81 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.copyright {
+    color: rgb(3, 41, 3);
+    font-family: Times, Times New Roman, Georgia, serif;
+}
+
+table {
+  font-size: 11px;
+  font-weight: bold;
+  table-layout: auto;
+  text-align: center;
+  width: 80%;
+  border-collapse: collapse;
+  border: 3px solid grey;
+  margin: 1% 10%;
+  border-spacing: 0;
+}
+
+th {
+  padding: 1px;
+  border: 1px solid grey; 
+  background-color: rgb(224, 248, 242);
+}
+
+td {
+  padding: 1px;
+  background-color: rgba(255, 251, 20, 0.124);
+  border: 1px solid grey; 
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Times, Times New Roman, Georgia, serif;
+  /* vertical-align: middle; */
+  font-size: 11px;
+}
+
+.tableCaption {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.tableHead {
+  background-color: rgb(216, 248, 238);
+  font-size: 1rem;
+}
+
+main {
+  display: center;
+  justify-content: center; 
+  text-align: center;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.shadowbox {
+  width: 200px;
+  border: 1px solid #333;
+  box-shadow: 3px 3px 2px #444;
+  padding: 4px 5px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  margin: 0 auto;
+  text-align: left;
+}
